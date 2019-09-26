@@ -1,0 +1,16 @@
+body{
+	background-image: url('Gunung-Bromo-Jawa-Timur.jpg');
+}
+h1{
+	text-align: center;
+	font-family: verdana;
+	color: lightblue;
+}
+p{
+	border-style: solid;
+	background-color: white;
+	text-align: center;
+	border-color: orange;
+	border-radius: 5px;
+	margin: 25px 515px 25px 515px;
+}
