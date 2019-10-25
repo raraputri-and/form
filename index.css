@@ -1,0 +1,248 @@
+body{
+	background-color: #fcb3eb;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	padding: 0px;
+}
+.logo{
+  background-color: maroon;
+}
+.search{
+  padding: 6px 15px;
+  background: #ffdd99 0.2;
+  border: 0px solid #ffd480;
+  margin-left: 60px;
+}
+.button{
+  position: relative;
+  padding: 6px 15px;
+  left: -8px;
+  border: 0px solid white;
+  background-color: blue; 
+  color: white;
+}
+.button:hover{
+  background-color: lightblue; 
+  border: 2px solid blue;
+  color: white;
+  cursor: pointer;
+}
+.form{
+  box-sizing: border-box;
+  width: 15%;
+  font-size: 11px;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+
+}
+nav{
+	height: 53px;
+	overflow: hidden;
+	float: right;
+	width: 100%;
+	opacity: 0.7;
+  font-family: Century Gothic; 
+
+}
+nav ul{
+	display: inline;
+  margin-left: 200px;
+  margin-right: 0px;
+}
+nav ul li {
+   display: inline-block;
+      cursor: pointer;
+      padding: 15px;
+      transition: background-color 0.3s;
+  }
+nav li a {
+   text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 300;
+      padding: 20px;
+  }
+nav > ul >li ul {
+   background-color: #04863e;
+      position: absolute;
+      margin-top: 11px;
+      z-index: -1;
+      margin-left: -46px;
+      border-radius: 0px 0px 15px 15px;
+      text-align: center;
+      width: 226px;
+      padding: 4px;
+      visibility: hidden;
+      /*transition: visibility 0.3s;*/
+  }
+nav > ul >li ul> li {
+   margin: 10px;
+   display: inline-block;
+   cursor: pointer;
+
+  }
+nav ul li:hover ul{
+  visibility:visible;  
+}
+nav ul li:hover {
+   background-color: maroon;
+  }
+.text1{
+  background-image: url("Gunung-Bromo-Jawa-Timur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+  height: 100%;
+  font-family: vollkorn;
+  color: #de7a09;
+  font-size: 70px;
+  text-shadow: 1px 2px black;
+}
+.text2{
+  float: right;
+  font-size: 40px;
+  font-family: Candara;
+  color: #c8d147;
+}
+#content{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.destinasi{
+  font-family: Georgia;
+  font-size: 30px;
+  text-shadow: 1px 1px white;
+}
+.Destinations{
+  font-family: Frank Ruhl Libre;
+  font-size: 25px;
+  text-shadow: 1px 1px white;
+}
+.foto1{
+  background-image: url("su.jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 400px;
+  width: 370px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+.foto2{
+  background-image: url("kota (1).jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 370px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+.foto3{
+  background-image: url("kota (2).jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 370px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+#content2{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.Hotels{
+  font-family: Georgia;
+  font-size: 30px;
+  text-shadow: 1px 1px white;
+}
+.Top{
+  font-family: Frank Ruhl Libre;
+  font-size: 25px;
+  text-shadow: 1px 1px white;
+}
+.hotel1{
+  background-image: url("h (1).jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 400px;
+  width: 370px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+.hotel2{
+  background-image: url("h (2).jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 400px;
+  width: 370px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+.hotel3{
+  background-image: url("h (3).jpg");
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 400px;
+  width: 370px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+#content3{
+/*  background-image: url("a.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;*/
+/*  background-size: cover;*/
+  /*background-color: maroon;*/
+/*  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%*/
+  background: rgba(232, 48, 7,0.6);
+}
+#bg{
+  /*background-color: maroon;*/
+  background-image: url("a.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /*background: rgba(232, 48, 7. 0,6);*/
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%
+}
+.about{
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 2px red;
+}
+.isi{
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 2px black;
+}
